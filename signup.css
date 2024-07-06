@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+body{
+    background: white;
+    text-align: center;
+    font-family: Outfit;
+    min-height: 100vh;
+
+}
+
+footer{
+    width: 100%;
+     height: auto ;
+     max-height: 200px;
+     margin-top: 20px;
+     padding: 20px 0;
+     /* position: fixed; */
+     bottom: 0;
+     background: linear-gradient(to bottom, #f4f4f4, #fff);
+     border-radius: 2px solid #ededed;
+     font-size: 12px;
+}
